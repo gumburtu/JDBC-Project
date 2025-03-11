@@ -54,6 +54,6 @@ public class ConnectTo {
 
         //Disconnect
         statement.close();
-        connection.close();
+        connection.close(); //All connections are closed
     }
 }
